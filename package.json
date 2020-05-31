@@ -1,0 +1,28 @@
+{
+  "name": "hello_world_flutter",
+  "version": "1.0.0",
+  "description": "hello world flutter web",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gh-pages": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d build/web"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aungkyawhein/hello-world-flutter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aungkyawhein/hello-world-flutter/issues"
+  },
+  "homepage": "https://github.com/aungkyawhein/hello-world-flutter#readme"
+}
